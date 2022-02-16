@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href="/styles/globals.css" rel="stylesheet"></link>
       </Head>
-      <main className="grid min-h-screen bg-gradient-to-t from-blue-200 to-gray-800 lg:pr-20% lg:pl-20%">
+      <main className="grid min-h-screen bg-gradient-to-t from-blue-200 to-blue-400 lg:pr-20% lg:pl-20%">
         <span className="lg:text-8xl md:text-2xl sm:text-2xl text-center text-white">
           🐀 <br></br>The FPL Rat Boys <br></br>🐀 Hall Of Fame 🐀
         </span>
