@@ -1,0 +1,53 @@
+[
+  {
+    "season": "2021/2022",
+    "phase": "1",
+    "first": "Marc",
+    "second": "Derek",
+    "third": "Iarla",
+    "firstPoints": "1169",
+    "secondPoints": "1154",
+    "thirdPoints": "1125"
+  },
+  {
+    "season": "2020/2021",
+    "phase": "2",
+    "first": "Tommy",
+    "second": "Conor",
+    "third": "Derek",
+    "firstPoints": "1199",
+    "secondPoints": "1190",
+    "thirdPoints": "1187"
+  },
+  {
+    "season": "2020/2021",
+    "phase": "1",
+    "first": "Marc",
+    "second": "Derek",
+    "third": "Paddy",
+    "firstPoints": "1185",
+    "secondPoints": "1148",
+    "thirdPoints": "1123"
+  },
+
+  {
+    "season": "2019/2020",
+    "phase": "1",
+    "first": "Derek / Iarla",
+    "second": "",
+    "third": "",
+    "firstPoints": "🤷🏻‍♂️",
+    "secondPoints": "",
+    "thirdPoints": ""
+  },
+  {
+    "season": "2019/2020",
+    "phase": "2",
+    "first": "Paddy",
+    "second": "",
+    "third": "",
+    "firstPoints": "🤷🏻‍♂️",
+    "secondPoints": "",
+    "thirdPoints": ""
+  }
+]
