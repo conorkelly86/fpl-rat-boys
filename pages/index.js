@@ -17,7 +17,10 @@ export default function Home() {
         <div className=" lg:pb-60 flex flex-col justify-center sm:py-12 ">
           <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 px-2">
             {winners.map((winner, key) => (
-              <div className="relative flex flex-col min-w-0 break-words bg-gradient-to-r from-gray-100 to-gray-300 w-full shadow-xl rounded-lg text-center">
+              <div
+                className="relative flex flex-col min-w-0 break-words bg-gradient-to-r from-gray-100 to-gray-300 w-full shadow-xl rounded-lg text-center"
+                key={winner.phase}
+              >
                 <span className="text-2xl mt-10">{winner.season}</span>
                 <span className="text-sm m-2">Phase: {winner.phase}</span>
                 <div className="text-center mt-6 ">
