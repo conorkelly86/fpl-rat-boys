@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main className="grid min-h-screen bg-gradient-to-t from-blue-200 to-gray-800 lg:pr-20% lg:pl-20%">
         <span className="lg:text-8xl md:text-2xl sm:text-2xl text-center text-white">
-          🐀 <br></br>The FPL Rat Boys <br></br>🐀 Hall of Fame 🐀
+          🐀 <br></br>The FPL Rat Boys <br></br>🐀 Hall Of Fame 🐀
         </span>
         <div className=" lg:pb-60 flex flex-col justify-center sm:py-12 ">
           <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 px-2">
