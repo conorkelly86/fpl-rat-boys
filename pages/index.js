@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Head>
         <meta name="description" content="FPL Rat Boys Hall Of Fame" />
+        <title>FPL Rat Boys Hall Of Fame</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="/styles/globals.css" rel="stylesheet"></link>
       </Head>
