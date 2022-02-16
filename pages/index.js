@@ -19,27 +19,31 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 px-2">
             {winners.map((winner, key) => (
               <div
-                className="relative flex flex-col min-w-0 break-words bg-gradient-to-r from-gray-100 to-gray-300 w-full shadow-xl rounded-lg text-center"
+                className="relative flex flex-col min-w-0 break-words bg-gradient-to-t from-gray-900 to-gray-600  w-full shadow-xl rounded-lg text-center"
                 key={winner.phase}
               >
-                <span className="text-2xl mt-10">{winner.season}</span>
-                <span className="text-sm m-2">Phase: {winner.phase}</span>
+                <span className="text-2xl mt-10 text-white">
+                  {winner.season}
+                </span>
+                <span className="text-sm m-2 text-white">
+                  Phase: {winner.phase}
+                </span>
                 <div className="text-center mt-6 ">
                   <p className="text-6xl">🐀</p>
                   <span className="text-xl font-semibold leading-normal text-gold ">
                     {winner.first}
                   </span>
-                  <p className="mb-6">{winner.firstPoints}</p>
+                  <p className="mb-6 text-white">{winner.firstPoints}</p>
                   {winner.second && <span className="text-5xl">🥈</span>}
                   <h4 className="text-m font-semibold leading-normal text-silver ">
                     {winner.second}
                   </h4>
-                  <p className="mb-6">{winner.secondPoints}</p>
+                  <p className="mb-6 text-white">{winner.secondPoints}</p>
                   {winner.third && <span className="text-4xl">🥉</span>}
                   <h5 className="text-sm font-semibold leading-normal text-bronze ">
                     {winner.third}
                   </h5>
-                  <p className="mb-6">{winner.thirdPoints}</p>
+                  <p className="mb-6 text-white">{winner.thirdPoints}</p>
                 </div>
               </div>
             ))}
