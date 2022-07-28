@@ -1,6 +1,16 @@
 [
   {
     "season": "2021/2022",
+    "phase": "2",
+    "first": "Marc",
+    "second": "Derek",
+    "third": "Iarla",
+    "firstPoints": "1323",
+    "secondPoints": "1310",
+    "thirdPoints": "1305"
+  },
+  {
+    "season": "2021/2022",
     "phase": "1",
     "first": "Marc",
     "second": "Derek",
